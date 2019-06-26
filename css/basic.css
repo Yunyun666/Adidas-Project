@@ -7,6 +7,6 @@ i,em{font-style: normal}
 img{border: none;}
 input{outline: none}
 .clear::after{content:"";overflow: hidden;visibility:hidden;clear:both;display:block;font-size:1px;height: 0;}
-/* .clear{display: block;overflow:hidden;} */
+.clear{display: block;overflow:hidden;}
 .fl{float: left;}
 .fr{float: right;}
