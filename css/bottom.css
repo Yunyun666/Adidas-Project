@@ -1,0 +1,124 @@
+/*******************底部联系我们***********************/
+.contact {
+    width: 100%;
+    height: 100px;
+    background: #000;
+}
+.contact-list{
+    width: 1280px;
+    height: 100px;
+    padding-left: 100px;
+}
+.contact-list dl{
+    float: left;
+    color: #fff;
+    padding: 40px 60px 0 0;
+    box-sizing: border-box;
+}
+.contact-list dl:last-child{
+    margin-left: 255px;
+}
+.contact-list dl dd{
+    color: #666;
+    font-size: 14px;
+    padding-left: 22px;
+}
+.contact-list dl dt i{
+    padding-right: 6px;
+}
+.contact-list dl dt a.serve{
+    color: #fff;
+    font-size: 16px;
+}
+/**********************底部导航***********************/
+.bottom{
+    width: 100%;
+    height: 430px;
+    background: #fff;
+}
+.bottom-top {
+    width: 1423px;
+    padding: 0 100px 65px 100px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.bottom-top ul {
+    float: left;
+}
+.bottom-top ul:nth-child(5){
+    margin-right: -160px;
+}
+.bottom-top ul:last-child {
+    padding-right: 0;
+}
+
+.bottom-top ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    line-height: 28px;
+}
+.bottom-top ul li.bottom-top-first a:hover {
+    text-decoration: none;
+}
+
+.bottom-top ul li:first-child {
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.bottom-top ul li.bottom-top-first a {
+    font-size: 16px;
+    color: #000000;
+    line-height: 60px;
+}
+
+.bottom-top ul li.bottom-top-last {
+    position: absolute;
+    bottom: 80px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+.bottom-top .iconfont{
+    font-size: 28px;
+    color: #000000;
+    padding-right: 8px;
+}
+.bottom-top .bottomLast {
+    text-align: center;
+}
+
+.bottom .bottom-bot{
+    width: 1280px;
+    padding-left: 100px;
+}
+.bottom .bottom-bot p {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.bottom .bottom-bot p:first-child *{
+    display: inline-block;
+    vertical-align: middle;
+}
+.bottom .bottom-contact :first-child{
+    display: inline-block;
+    margin-right: 95px;
+}
+/* 隐藏的微信和公众号二维码 */
+.bottomShow {
+    position: relative;
+}
+.bottomShow span{
+    position: absolute;
+    right: 60px;
+    top: -200px;
+    display: none;
+}
+.bottomShow span.show{
+    display: block;
+}
