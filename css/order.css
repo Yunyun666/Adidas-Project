@@ -1,0 +1,159 @@
+.z_header_top{
+    width:100%;
+    height: 30px;
+    background: #000;
+}
+
+.z_header_top_center{
+height: 30px;
+width: 1280px;
+margin: 0 auto;
+background: #000;
+overflow: hidden;
+}
+
+.z_header_top_center>ul{
+    float: right;
+    text-align: center;
+    margin: 10px 2px;
+
+}
+.z_header_top_center>ul>li{
+    font-size:12px;
+    color:#8b8d8e;
+    float: left;
+    list-style: none;
+}
+
+.z_header_top_center>ul>li>a{
+    font-size:12px;
+    color:#8b8d8e;
+    float: left;
+   padding: 0 15px;
+  text-decoration: none;
+}
+/* <!--end z_header_top--> */
+
+.z_header{
+    width: 100%;
+    height:50px;
+    background: #000;
+}
+
+.z_header_container{
+    width: 1280px;
+    height: 50px;
+    background: #000;
+    margin: 0 auto;
+}
+
+
+.z_header_left ul{
+    height:50px;
+    overflow: hidden;
+    float: left;
+}
+
+.z_header_left li{
+    
+    line-height: 50px;
+    padding: 0 12px;
+    font-weight: bold;
+    float: left;
+}
+
+.z_header_left img{
+    margin-top: 0px;
+ }
+.z_header_left li a{
+   color:white;
+}
+/* <!--end header--> */
+
+.z_article{
+    height: 60px;
+    background: #fff;
+}
+
+.z_breadcrumb{
+    width: 1070px;
+    height:60px;
+    margin: 0 auto;
+}
+
+.z_list-inline_content{
+    width: 1000px;
+    height:20px;
+    background: #fff;
+     float: right;
+     padding:20px 0px;
+}
+
+
+.z_list-inline_content li{
+    float: left;
+    line-height: 20px;
+    padding: 0 4px;
+    
+}
+/* end */
+.z_order{
+    height: 290px;
+    background: #fff;
+}
+
+.z_order_left{
+    width:1000px;
+    height:290px;
+    margin:0 auto;
+}
+
+.z_login_box{
+    width: 410px;
+    height:272px;
+}
+
+.z_p{
+    font-size: 12px;
+    line-height: 34px;
+    color: #888888;
+}
+
+.z_login_box p{
+    font-size: 12px;
+    line-height: 34px;
+    color: #ff6d84;
+}
+
+
+.z_input1{
+    width:410px;
+    height:40px;
+    border:1px solid #c8cbcc;
+}
+
+.z_btn{
+    width: 410px;
+    height:40px;
+    background: #000;
+    border:none;
+    position: relative;
+
+}
+
+.z_btn span{
+    color: #fff;
+    font-size: 14px;
+    padding-right: 40px;
+}
+
+.z_btn img{
+ margin-left: -20px;
+
+    position: absolute;
+    top:13px;
+}
+
+/* <!--end z_article--> */
+
+
